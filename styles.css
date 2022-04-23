@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*Card CSS*/
+body {
+    background-color: #E5E5E5;;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns: auto 300px;
+    gap: 91px;
+}
+main {
+    margin-top: 0;
+}
+#container {
+    background-color: white;
+    margin: 0 auto;
+    width: 413px;
+    min-height: 466px;
+}
+#wrapper {
+    padding: 16px 16px 8px 16px;
+}
+#cardImg {
+    width: 413px;
+    height: 150px;
+}
+#cardContent {
+    align-items: center;
+    font-size: 16px;
+    height: 144px;
+}
+#button {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100px;
+    height: 47px;
+    margin: 16px auto;
+    background: #1C62EA;
+    border-radius: 4px;
+    color:white;
+}
+#buttonText {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+#cardfooter {
+    padding-bottom: 8px;
+}
+#footerText {
+    display: inline-block;
+    color: #808080;
+    font-size: 12px;
+    text-align: left;
+    padding: 4px 0 0 0;
+}
+#footerIcons {
+    float: right;
+    
+}
+.Icon {
+    width: 24px;
+    height: 24px;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0 0 16px 0;
+}
+p {
+    margin: 0;
+}
+
+
+/*Small Card CSS*/
+#smallContainer {
+    background-color: white;
+    margin: 0 auto;
+    width: 472px;
+    min-height: 88px;
+}
+#smallWrapper {
+    padding: 12px;
+}
+#smallCardImg {
+    float: left;
+    width: 64px;
+    height: 64px;
+    padding: 12px;
+}
+#smallTitle {
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#smallCardContent {
+    font-size: 14px;
+    padding-top: 4px;
+}
+h4 {
+    margin: 0;
+    font-size: 16px;
+}
